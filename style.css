@@ -19,15 +19,21 @@ ul{
 li > a:link{
     text-decoration: none;
     color: blue;
+    font-weight: bolder;
+}
+
+li > a:hover{
+    color: purple;
 }
 
 
 .title{
-    margin-left : 41vw;
-    margin-right: 41vw;
     color       : red;
     font-size   : 50px;
-    pointer-events: none;
+    margin-left: 42vw;
+    margin-right: 42vw;
+    margin-top: 20vh;
+    font-weight: bolder;
 }
 
 .mainImage2{
