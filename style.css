@@ -1,0 +1,41 @@
+* {
+    box-sizing: border;
+}
+
+body{
+    height: 100%;
+    background-size  : cover;
+    background-repeat: no-repeat;
+    background-image : url("https://github.com/brian-w119/my-images/blob/main/Screenshot%20from%202023-11-11%2020-58-52.png?raw=true");
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    font-size      : 20px;
+}
+
+li > a:link{
+    text-decoration: none;
+    color: blue;
+}
+
+
+.title{
+    margin-left : 41vw;
+    margin-right: 41vw;
+    color       : red;
+    font-size   : 50px;
+    pointer-events: none;
+}
+
+.mainImage2{
+    margin-left : auto;
+    margin-right: auto;
+    max-width: 50vw;
+    height: 50vw;
+}
+
+
+
