@@ -1,0 +1,55 @@
+* {
+    box-sizing: border;
+}
+
+body{
+    height: 100%;
+    background-size  : cover;
+    background-repeat: no-repeat;
+    background-image : url("https://github.com/brian-w119/my-images/blob/main/3-Dives-Jerk-Chicken-Negril-Jamaica.jpg?raw=true");
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    font-size      : 20px;
+}
+
+li > a:link{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+li > a:hover{
+    color: red;
+}
+
+
+.title{
+    color       : red;
+    font-size   : 50px;
+    margin-left: 42vw;
+    margin-right: 42vw;
+    margin-top: 20vh;
+    font-weight: bolder;
+}
+
+.mainImage2{
+    margin-left : auto;
+    margin-right: auto;
+    max-width: 50vw;
+    height: auto;
+}
+
+.about{
+    display: block;
+    width: 50vw;
+    height: auto;
+    background-color: white;
+    margin-left: 45vw;
+    font-size: 20px;
+    margin-top: 5vw;
+}
+
